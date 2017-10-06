@@ -27,6 +27,11 @@ p {
 	font-family: $mont;
 	font-weight: 200;
 	letter-spacing: .05em;
+
+	span {
+		font-weight: 400;
+		font-variant: small-caps;
+	}
 }
 .container {
 	width: 90%;
@@ -72,6 +77,10 @@ p {
 
 		.icon {
 			margin: 4em 0;
+
+			img{
+
+			}
 		}
 	}
 }

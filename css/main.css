@@ -22,6 +22,9 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   letter-spacing: .05em; }
+  p span {
+    font-weight: 400;
+    font-variant: small-caps; }
 
 .container {
   width: 90%;
