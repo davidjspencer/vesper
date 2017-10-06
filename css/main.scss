@@ -1,0 +1,69 @@
+$mont: 'Montserrat', sans-serif;
+$rale: 'Raleway', sans-serif;
+* {
+	box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+h1,
+h2,
+h3 {
+	font-family: $rale;
+	font-weight: 400;
+}
+
+p {
+	font-family: $mont;
+	font-weight: 200;
+}
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.hero {
+	/*background-image: url('../img/Vesper_HealthCare_Marketing_White.svg');
+
+
+	height: 100%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  width: 100%;
+
+
+
+  img {
+  	width: 100%;
+  	height: auto;
+  	margin: auto;
+		display: block;
+		/*padding: 4em $right-pad-per 4em $left-pad-per;*/
+  }
+}
+
+.services {
+	background: #ef32d9;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	h1,
+	p {
+		color: white;
+	}
+
+	.service {
+		width: 100%;
+		text-align: center;
+		padding: 10%;
+	}
+}
+
+
+
+
