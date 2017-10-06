@@ -5,6 +5,13 @@ body,
 html {
   height: 100%; }
 
+a {
+  color: #5A5A5A;
+  text-decoration: none;
+  border-bottom: 1px solid lightgrey; }
+  a:hover {
+    border-bottom: 1px solid #ef32d9; }
+
 h1,
 h2,
 h3 {
@@ -32,21 +39,7 @@ p {
   margin-right: auto; }
 
 .hero {
-  	/*background-image: url('../img/Vesper_HealthCare_Marketing_White.svg');
-  
-  
-  	height: 100%;
-  
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;*/
   width: 100%; }
-  .hero img {
-    width: 100%;
-    height: auto;
-    margin: auto;
-    display: block;
-    /*padding: 4em $right-pad-per 4em $left-pad-per;*/ }
 
 .header {
   background-image: url("../img/Vesper_HealthCare_Marketing_White.svg");
@@ -100,7 +93,15 @@ p {
 
 footer {
   background: black;
-  min-height: 300px; }
+  min-height: 300px;
+  color: lightgrey;
+  padding-top: 4em; }
+  footer a {
+    color: lightgrey; }
+  footer .footer-col {
+    display: inline-block;
+    float: left;
+    width: calc(100% / 3); }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
@@ -121,6 +122,12 @@ footer {
     background-image: url("../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg"); }
 
   .parallax-two {
-    background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); } }
+    background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); }
+
+  footer .footer-col {
+    display: inline-block;
+    float: left;
+    width: 100%;
+    text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
