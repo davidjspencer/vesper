@@ -15,6 +15,12 @@ h3 {
 	font-family: $mont;
 	font-weight: 100;
 	letter-spacing: .15em;
+	font-variant: small-caps;
+
+	span {
+		font-weight: 400;
+		font-variant: small-caps;
+	}
 }
 
 p {
@@ -63,6 +69,10 @@ p {
 		width: 100%;
 		text-align: center;
 		padding: 10%;
+
+		.icon {
+			margin: 4em 0;
+		}
 	}
 }
 
