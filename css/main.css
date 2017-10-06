@@ -1,3 +1,5 @@
+/* browser-sync start --server --files "*.html, css/*.css" */
+/* sass --watch main.scss:main.css */
 * {
   box-sizing: border-box; }
 
@@ -29,7 +31,7 @@ h3 {
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
-  letter-spacing: .05em; }
+  letter-spacing: .15em; }
   p span {
     font-weight: 400;
     font-variant: small-caps; }
@@ -104,6 +106,9 @@ footer {
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
+  p {
+    font-weight: 400; }
+
   .header {
     background-image: url("../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg");
     height: 50vh;
@@ -112,10 +117,11 @@ footer {
 
   .parallax,
   .parallax-two {
-    background-attachment: scroll;
+    /*background-attachment: scroll;
     height: 50vh;
-    width: 100vw;
-    padding: 20vh 0; }
+		width: 100vw;
+		padding: 20vh 0;*/
+    display: none; }
 
   .parallax {
     background-image: url("../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg"); }
