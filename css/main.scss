@@ -1,5 +1,7 @@
 $mont: 'Montserrat', sans-serif;
 $rale: 'Raleway', sans-serif;
+$black: black;
+$white: white;
 * {
 	box-sizing: border-box;
 }
@@ -64,7 +66,7 @@ p {
 
 	h1,
 	p {
-		color: white;
+		color: $white;
 	}
 
 	.service {
@@ -81,10 +83,7 @@ p {
 		}
 	}
 }
-.black {
-	height: 100%;
-	background: black;
-}
+
 .parallax {
     /* The image used */
     background-image: url('../img/Vesper_HealthCare_Marketing_White.svg');
@@ -114,7 +113,7 @@ p {
 }
 
 footer {
-	background: black;
+	background: $black;
 	min-height: 300px;
 	color: lightgrey;
 	padding-top: 4em;
