@@ -12,13 +12,15 @@ html {
 h1,
 h2,
 h3 {
-	font-family: $rale;
-	font-weight: 400;
+	font-family: $mont;
+	font-weight: 100;
+	letter-spacing: .15em;
 }
 
 p {
 	font-family: $mont;
 	font-weight: 200;
+	letter-spacing: .05em;
 }
 .container {
 	width: 90%;
