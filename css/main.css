@@ -8,9 +8,10 @@ html {
 a {
   color: #5A5A5A;
   text-decoration: none;
-  border-bottom: 1px solid lightgrey; }
+  padding-bottom: 2px;
+  border-bottom: 2px solid #89fffd; }
   a:hover {
-    border-bottom: 1px solid #ef32d9; }
+    border-bottom: 2px solid #ef32d9; }
 
 h1,
 h2,
@@ -89,9 +90,12 @@ p {
 
 footer {
   background: black;
-  min-height: 300px;
+  height: 100%;
+  min-height: 400px;
   color: lightgrey;
-  padding-top: 4em; }
+  padding: 8em 0;
+  padding-bottom: 6em;
+  text-align: center; }
   footer a {
     color: lightgrey; }
   footer .footer-col {
@@ -120,10 +124,12 @@ footer {
   .parallax-two {
     background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); }
 
-  footer .footer-col {
-    display: inline-block;
-    float: left;
-    width: 100%;
-    text-align: center; } }
+  footer {
+    height: 100%; }
+    footer .footer-col {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */

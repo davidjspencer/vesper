@@ -2,6 +2,8 @@ $mont: 'Montserrat', sans-serif;
 $rale: 'Raleway', sans-serif;
 $black: black;
 $white: white;
+$aqua: #89fffd;
+$purple: #ef32d9;
 * {
 	box-sizing: border-box;
 }
@@ -13,9 +15,10 @@ html {
 a {
 	color: #5A5A5A;
 	text-decoration: none;
-	border-bottom: 1px solid lightgrey;
+	padding-bottom: 2px;
+	border-bottom: 2px solid $aqua;
 	&:hover {
-		border-bottom: 1px solid #ef32d9;
+		border-bottom: 2px solid $purple;
 	}
 }
 h1,
@@ -60,9 +63,9 @@ p {
 }
 
 .services {
-	background: #ef32d9;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: $purple;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, $aqua, $purple);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, $aqua, $purple); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	h1,
 	p {
@@ -114,10 +117,12 @@ p {
 
 footer {
 	background: $black;
-	min-height: 300px;
+	height: 100%;
+	min-height: 400px;
 	color: lightgrey;
-	padding-top: 4em;
-
+	padding: 8em 0;
+	padding-bottom: 6em;
+	text-align: center;
 	a {
 		color: lightgrey;
 	}
@@ -152,10 +157,12 @@ footer {
   	background-image: url('../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg');
   }
   footer {
+  	height: 100%;
 	  .footer-col {
 			display: inline-block;
 			float: left;
 			width: 100%;
+
 			text-align: center;
 		}
 	}
