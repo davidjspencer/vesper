@@ -93,11 +93,21 @@ p {
 
 footer {
   background: black;
-  min-height: 200px; }
+  min-height: 300px; }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
+  .parallax,
+  .parallax-two {
+    background-attachment: scroll;
+    height: 50vh;
+    width: 100vw;
+    padding: 20vh 0; }
+
   .parallax {
-    background-attachment: scroll; } }
+    background-image: url("../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg"); }
+
+  .parallax-two {
+    background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); } }
 
 /*# sourceMappingURL=main.css.map */
