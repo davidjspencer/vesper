@@ -19,9 +19,9 @@ a {
 	color: #5A5A5A;
 	text-decoration: none;
 	padding-bottom: 2px;
-	border-bottom: 2px solid $aqua;
+	border-bottom: 1px solid $aqua;
 	&:hover {
-		border-bottom: 2px solid $purple;
+		border-bottom: 1px solid $purple;
 	}
 }
 h1,
@@ -29,7 +29,8 @@ h2,
 h3 {
 	font-family: $mont;
 	font-weight: 100;
-	letter-spacing: .15em;
+	font-size: 2.5em;
+	letter-spacing: .2em;
 	font-variant: small-caps;
 
 	span {
@@ -42,6 +43,7 @@ p {
 	font-family: $mont;
 	font-weight: 200;
 	letter-spacing: .15em;
+	font-size: 1.2em;
 
 	span {
 		font-weight: 400;
@@ -129,6 +131,10 @@ footer {
 		color: lightgrey;
 	}
 
+	p {
+		font-size: .75em;
+	}
+
 
 	.footer-col {
 		display: inline-block;
@@ -174,3 +180,14 @@ footer {
 	}
 }
 
+@media only screen and (min-device-width: 820px) {
+
+	.services {
+		.service {
+			width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+
+}

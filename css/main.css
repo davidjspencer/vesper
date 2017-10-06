@@ -11,16 +11,17 @@ a {
   color: #5A5A5A;
   text-decoration: none;
   padding-bottom: 2px;
-  border-bottom: 2px solid #89fffd; }
+  border-bottom: 1px solid #89fffd; }
   a:hover {
-    border-bottom: 2px solid #ef32d9; }
+    border-bottom: 1px solid #ef32d9; }
 
 h1,
 h2,
 h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
-  letter-spacing: .15em;
+  font-size: 2.5em;
+  letter-spacing: .2em;
   font-variant: small-caps; }
   h1 span,
   h2 span,
@@ -31,7 +32,8 @@ h3 {
 p {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
-  letter-spacing: .15em; }
+  letter-spacing: .15em;
+  font-size: 1.2em; }
   p span {
     font-weight: 400;
     font-variant: small-caps; }
@@ -99,6 +101,8 @@ footer {
   text-align: center; }
   footer a {
     color: lightgrey; }
+  footer p {
+    font-size: .75em; }
   footer .footer-col {
     display: inline-block;
     float: left;
@@ -136,5 +140,10 @@ footer {
       float: left;
       width: 100%;
       text-align: center; } }
+@media only screen and (min-device-width: 820px) {
+  .services .service {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto; } }
 
 /*# sourceMappingURL=main.css.map */
