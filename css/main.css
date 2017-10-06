@@ -65,4 +65,39 @@ p {
     .services .service .icon {
       margin: 4em 0; }
 
+.black {
+  height: 100%;
+  background: black; }
+
+.parallax {
+  /* The image used */
+  background-image: url("../img/Vesper_HealthCare_Marketing_White.svg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax-two {
+  /* The image used */
+  background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline.svg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+footer {
+  background: black;
+  min-height: 200px; }
+
+/* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
+@media only screen and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll; } }
+
 /*# sourceMappingURL=main.css.map */
