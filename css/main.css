@@ -21,8 +21,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 2.5em;
-  letter-spacing: .2em;
-  font-variant: small-caps; }
+  letter-spacing: .2em; }
   h1 span,
   h2 span,
   h3 span {
@@ -72,7 +71,8 @@ p {
 
 .parallax {
   /* The image used */
-  background-image: url("../img/Vesper_HealthCare_Marketing_White.svg");
+  background-image: url("../img/grad.jpg");
+  /*background-image: url('../img/Vesper_HealthCare_Marketing_White.svg');*/
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
@@ -91,6 +91,30 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
+
+.clients {
+  padding: 4em;
+  text-align: center;
+  /*background: $lightgrey;*/ }
+  .clients .row .row--item__logo {
+    float: none;
+    width: 25%;
+    display: table-cell;
+    vertical-align: middle; }
+    .clients .row .row--item__logo a {
+      border-bottom: none; }
+      .clients .row .row--item__logo a:hover {
+        border-bottom: none; }
+      .clients .row .row--item__logo a img {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 4em;
+        filter: grayscale(100%); }
+        .clients .row .row--item__logo a img.portrait {
+          width: auto; }
+        .clients .row .row--item__logo a img:hover {
+          filter: grayscale(0%); }
 
 footer {
   background: black;
@@ -132,6 +156,12 @@ footer {
 
   .parallax-two {
     background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); }
+
+  .clients {
+    width: 100%;
+    overflow-x: auto; }
+    .clients .row row--item__logo {
+      width: 50%; }
 
   footer {
     height: 100%; }
