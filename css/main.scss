@@ -143,10 +143,7 @@ p {
 	        height: auto;
 	        padding: 4em;
 	        filter: grayscale(100%);
-	        &.portrait {
 
-	        	width: auto;
-	        }
 	        &:hover {
 	        	filter: grayscale(0%);
 	        }
@@ -205,14 +202,31 @@ footer {
   }
 
   .clients {
-  	width: 100%;
-  	overflow-x: auto;
+  	width: 100vw;
+  	overflow: auto;
+  	padding: 2em 0;
   	.row {
-  		row--item__logo {
-  			width: 50%;
-  		}
+  		width: 100%;
+  		overflow: auto;
+			.row--item__logo {
+	    display: inline-block !important;
+	    float: left !important;
+	    width: 50%;
+
+	    a {
+	    	display: inline-block !important;
+	    	float: left !important;
+	      img {
+	        display: inline-block !important;
+	        width: 100% !important;
+	        height: auto;
+	        padding: 2em !important;
+	      }
+	    }
+	  }
   	}
   }
+
   footer {
   	height: 100%;
 	  .footer-col {

@@ -111,8 +111,6 @@ p {
         height: auto;
         padding: 4em;
         filter: grayscale(100%); }
-        .clients .row .row--item__logo a img.portrait {
-          width: auto; }
         .clients .row .row--item__logo a img:hover {
           filter: grayscale(0%); }
 
@@ -158,10 +156,24 @@ footer {
     background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); }
 
   .clients {
-    width: 100%;
-    overflow-x: auto; }
-    .clients .row row--item__logo {
-      width: 50%; }
+    width: 100vw;
+    overflow: auto;
+    padding: 2em 0; }
+    .clients .row {
+      width: 100%;
+      overflow: auto; }
+      .clients .row .row--item__logo {
+        display: inline-block !important;
+        float: left !important;
+        width: 50%; }
+        .clients .row .row--item__logo a {
+          display: inline-block !important;
+          float: left !important; }
+          .clients .row .row--item__logo a img {
+            display: inline-block !important;
+            width: 100% !important;
+            height: auto;
+            padding: 2em !important; }
 
   footer {
     height: 100%; }
