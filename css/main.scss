@@ -1,6 +1,9 @@
 /* browser-sync start --server --files "*.html, css/*.css" */
 /* sass --watch main.scss:main.css */
 
+@charset "utf-8";
+@import "mixins";
+
 $mont: 'Montserrat', sans-serif;
 $rale: 'Raleway', sans-serif;
 $black: black;
@@ -50,6 +53,7 @@ p {
 		font-variant: small-caps;
 	}
 }
+
 .container {
 	width: 90%;
 	margin-left: auto;
@@ -94,8 +98,8 @@ p {
 
 .parallax {
     /* The image used */
-    background-image: url('../img/grad.jpg');
-/*background-image: url('../img/Vesper_HealthCare_Marketing_White.svg');*/
+    /*background-image: url('../img/grad.jpg');*/
+		background-image: url('../img/Vesper_HealthCare_Marketing_White.svg');
 
     /* Full height */
     height: 100%;
@@ -250,3 +254,5 @@ footer {
 	}
 
 }
+
+@import 'menu';
