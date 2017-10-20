@@ -271,11 +271,12 @@ footer {
     list-style-type: none;
     display: inherit;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
     margin: 0;
     padding: 0;
     height: 100%; }
     .hide.body-menu ul li {
+      margin: .5em 0;
       font-size: 2em;
       text-align: center;
       -webkit-transform: perspective(1px) translateZ(0);
@@ -297,7 +298,7 @@ footer {
       .hide.body-menu ul li a:after {
         content: '';
         display: block;
-        height: 1px;
+        height: 2px;
         width: 0;
         background: transparent;
         transition: width .3s ease, background-color .3s ease; }
