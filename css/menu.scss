@@ -79,6 +79,7 @@
     padding: 0;
     height: 100%;
     li {
+
       font-size: 2em;
       text-align: center;
       -webkit-transform: perspective(1px) translateZ(0);
@@ -90,13 +91,27 @@
       -webkit-transform-origin: 0 100%;
       transform-origin: 0 100%;
 
-
       &:hover {
         -webkit-transform: skew(-10deg);
         transform: skew(-10deg);
-
 /*        -webkit-transform: translateX(8px);
         transform: translateX(8px);*/
+      }
+      a {
+        display: inline-block;
+        border-bottom: none;
+      }
+      a:after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 0;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease;
+      }
+      a:hover:after {
+        width: 100%;
+        background: $purple;
       }
     }
   }

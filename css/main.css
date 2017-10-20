@@ -280,6 +280,19 @@ footer {
         transform: skew(-10deg);
         /*        -webkit-transform: translateX(8px);
                 transform: translateX(8px);*/ }
+      .hide.body-menu ul li a {
+        display: inline-block;
+        border-bottom: none; }
+      .hide.body-menu ul li a:after {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 0;
+        background: transparent;
+        transition: width .5s ease, background-color .5s ease; }
+      .hide.body-menu ul li a:hover:after {
+        width: 100%;
+        background: #ef32d9; }
 
 @media only screen and (max-device-width: 569px) {
   .icon-three {
