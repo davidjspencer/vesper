@@ -13,8 +13,6 @@ a {
   text-decoration: none;
   padding-bottom: 2px;
   border-bottom: 1px solid #89fffd; }
-  a:hover {
-    border-bottom: 1px solid #ef32d9; }
 
 h1,
 h2,
@@ -127,7 +125,20 @@ footer {
   padding: 8em 0;
   text-align: center; }
   footer a {
-    color: lightgrey; }
+    font-size: 1.25em;
+    color: lightgrey;
+    display: inline-block;
+    border-bottom: none; }
+  footer a:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease; }
+  footer a:hover:after {
+    width: 100%;
+    background: #ef32d9; }
   footer p {
     font-size: .75em; }
   footer .footer-col {
@@ -289,7 +300,7 @@ footer {
         height: 1px;
         width: 0;
         background: transparent;
-        transition: width .5s ease, background-color .5s ease; }
+        transition: width .3s ease, background-color .3s ease; }
       .hide.body-menu ul li a:hover:after {
         width: 100%;
         background: #ef32d9; }

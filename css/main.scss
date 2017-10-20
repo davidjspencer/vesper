@@ -26,7 +26,6 @@ a {
 	padding-bottom: 2px;
 	border-bottom: 1px solid $aqua;
 	&:hover {
-		border-bottom: 1px solid $purple;
 	}
 }
 h1,
@@ -171,8 +170,23 @@ footer {
 	padding: 8em 0;
 	text-align: center;
 	a {
+		font-size: 1.25em;
 		color: lightgrey;
+		display: inline-block;
+		border-bottom: none;
 	}
+	a:after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 0;
+    background: transparent;
+    transition: width .3s ease, background-color .3s ease;
+  }
+  a:hover:after {
+    width: 100%;
+    background: $purple;
+  }
 
 	p {
 		font-size: .75em;
