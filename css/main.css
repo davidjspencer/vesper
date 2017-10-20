@@ -276,10 +276,10 @@ footer {
       -webkit-transform-origin: 0 100%;
       transform-origin: 0 100%; }
       .hide.body-menu ul li:hover {
-        /*-webkit-transform: skew(-10deg);
-        transform: skew(-10deg);*/
-        -webkit-transform: translateX(8px);
-        transform: translateX(8px); }
+        -webkit-transform: skew(-10deg);
+        transform: skew(-10deg);
+        /*        -webkit-transform: translateX(8px);
+                transform: translateX(8px);*/ }
 
 @media only screen and (max-device-width: 569px) {
   .icon-three {

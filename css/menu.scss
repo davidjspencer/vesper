@@ -89,12 +89,14 @@
       transition-property: transform;
       -webkit-transform-origin: 0 100%;
       transform-origin: 0 100%;
-      &:hover {
-        /*-webkit-transform: skew(-10deg);
-        transform: skew(-10deg);*/
 
-        -webkit-transform: translateX(8px);
-        transform: translateX(8px);
+
+      &:hover {
+        -webkit-transform: skew(-10deg);
+        transform: skew(-10deg);
+
+/*        -webkit-transform: translateX(8px);
+        transform: translateX(8px);*/
       }
     }
   }
