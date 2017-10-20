@@ -17,6 +17,7 @@ $lightgrey: #d3d3d3;
 
 body,
 html {
+	font-size: 16px;
   height: 100%;
 }
 a {
@@ -52,6 +53,10 @@ p {
 		font-weight: 400;
 		font-variant: small-caps;
 	}
+}
+
+.hide {
+	display: none;
 }
 
 .container {
@@ -115,7 +120,6 @@ p {
     background-image: url('../img/Vesper_HealthCare_Marketing_Black_Outline.svg');
 
     /* Full height */
-
 		height: 100%;
 
     /* Create the parallax scrolling effect */
@@ -128,8 +132,9 @@ p {
 .clients {
 	padding: 4em;
 	text-align: center;
-	/*background: $lightgrey;*/
+
 	.row {
+
 		.row--item__logo {
 	    float: none;
 	    width: 25%;
@@ -156,6 +161,7 @@ p {
 	  }
 	}
 }
+
 footer {
 	background: $black;
 	height: 100%;
@@ -178,6 +184,7 @@ footer {
 		width: calc(100% / 3);
 	}
 }
+
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
 @media only screen and (max-device-width: 1024px) {
 
@@ -243,16 +250,8 @@ footer {
 	}
 }
 
-@media only screen and (min-device-width: 820px) {
-
-	.services {
-		.service {
-			width: 70%;
-			margin-left: auto;
-			margin-right: auto;
-		}
-	}
-
-}
 
 @import 'menu';
+@import 'sm';
+@import 'md';
+@import 'lg';
