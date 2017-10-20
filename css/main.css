@@ -72,6 +72,9 @@ li {
     padding: 10%; }
     .services .service .icon {
       margin: 4em 0; }
+      .services .service .icon img {
+        width: 200px;
+        height: auto; }
 
 .parallax {
   /* The image used */
