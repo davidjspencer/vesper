@@ -29,12 +29,14 @@ h3 {
     font-weight: 400;
     font-variant: small-caps; }
 
-p {
+p,
+li {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   letter-spacing: .15em;
   font-size: 1.2em; }
-  p span {
+  p span,
+  li span {
     font-weight: 400;
     font-variant: small-caps; }
 
@@ -187,7 +189,7 @@ footer {
       text-align: center; } }
 /* Icon 3 */
 .icon-three {
-  position: absolute;
+  position: fixed;
   z-index: 20;
   top: 0;
   left: 0;
@@ -246,15 +248,38 @@ footer {
 
 .hide.body-menu {
   position: fixed;
-  display: block;
+  display: flex;
+  flex-direction: column;
   z-index: 10;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   background: #89fffd; }
-  .hide.body-menu ul > li {
-    text-decoration: none; }
+  .hide.body-menu ul {
+    list-style-type: none;
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    height: 100%; }
+    .hide.body-menu ul li {
+      font-size: 2em;
+      text-align: center;
+      -webkit-transform: perspective(1px) translateZ(0);
+      transform: perspective(1px) translateZ(0);
+      -webkit-transition-duration: 0.3s;
+      transition-duration: 0.3s;
+      -webkit-transition-property: transform;
+      transition-property: transform;
+      -webkit-transform-origin: 0 100%;
+      transform-origin: 0 100%; }
+      .hide.body-menu ul li:hover {
+        /*-webkit-transform: skew(-10deg);
+        transform: skew(-10deg);*/
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px); }
 
 @media only screen and (max-device-width: 569px) {
   .icon-three {
