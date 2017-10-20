@@ -50,7 +50,7 @@ li {
   width: 100%; }
 
 .header {
-  background-image: url("../img/Vesper_HealthCare_Marketing_White.svg");
+  background-image: url("../img/Vesper_HealthCare_Marketing_White_RGB.svg");
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -76,7 +76,7 @@ li {
 .parallax {
   /* The image used */
   /*background-image: url('../img/grad.jpg');*/
-  background-image: url("../img/Vesper_HealthCare_Marketing_White.svg");
+  background-image: url("../img/Vesper_HealthCare_Marketing_White_RGB.svg");
   /* Full height */
   height: 100%;
   /* Create the parallax scrolling effect */
@@ -220,7 +220,7 @@ footer {
   background: linear-gradient(to right, #89fffd, #ef32d9);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   position: absolute;
-  box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.4);
   transition: 0.5s; }
 
 .hamburger:before {
@@ -241,7 +241,7 @@ footer {
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #89fffd, #ef32d9);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0.4);
   transition: 0.5s; }
 
 .icon-three.active-three .hamburger-three {
@@ -255,7 +255,7 @@ footer {
 .icon-three.active-three .hamburger-three:after {
   top: 0;
   transform: rotate(225deg);
-  box-shadow: 0 -0.125em 0.3125em rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 -0.125em 0.3125em rgba(0, 0, 0, 0.4); }
 
 .hide.body-menu {
   position: fixed;
@@ -308,11 +308,15 @@ footer {
 
 @media only screen and (max-device-width: 569px) {
   .icon-three {
-    font-size: .75em; } }
+    font-size: .5em; } }
 @media only screen and (min-device-width: 570px) and (max-device-width: 694px) {
-  /* ####    INBETWEEN     #### */ }
+  /* ####    INBETWEEN     #### */
+  .icon-three {
+    font-size: .5em; } }
 @media only screen and (min-device-width: 695px) and (max-device-width: 819px) {
-  /* ####    MEDIUM     #### */ }
+  /* ####    MEDIUM     #### */
+  .icon-three {
+    font-size: .75em; } }
 @media only screen and (min-device-width: 820px) {
   /* LARGE */
   .services .service {
