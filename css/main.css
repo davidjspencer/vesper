@@ -1,5 +1,6 @@
 /* browser-sync start --server --files "*.html, css/*.css" */
 /* sass --watch main.scss:main.css */
+/* CMYK 5 5 0 90 */
 * {
   box-sizing: border-box; }
 
@@ -121,7 +122,7 @@ li {
           filter: grayscale(0%); }
 
 footer {
-  background: black;
+  background: #191819;
   height: 100%;
   min-height: 400px;
   color: lightgrey;
