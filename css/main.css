@@ -48,7 +48,29 @@ li {
   margin-right: auto; }
 
 .hero {
-  width: 100%; }
+  width: 100%;
+  position: relative;
+  /*  &::before {
+    	content: "";
+    	position: absolute;
+    	height: 100%;
+    	width: 100%;
+    	top: 0;
+    	left: 0;
+    	background: rgba(10,10,10,.5);
+    }*/ }
+  .hero .header-band {
+    position: absolute;
+    height: 8em;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: #ef32d9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #89fffd, #ef32d9);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .header {
   background-image: url("../img/Vesper_HealthCare_Marketing_White_RGB.svg");
@@ -58,23 +80,19 @@ li {
   background-size: cover; }
 
 .services {
-  background: #ef32d9;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #89fffd, #ef32d9);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #89fffd, #ef32d9);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  overflow: auto;
+  position: relative; }
   .services h1,
   .services p {
-    color: white; }
+    color: #191719; }
   .services .service {
     width: 100%;
     text-align: center;
-    padding: 10%; }
+    padding: 4em; }
     .services .service .icon {
       margin: 4em 0; }
       .services .service .icon img {
-        width: 200px;
+        width: 50%;
         height: auto; }
 
 .parallax {
@@ -89,48 +107,41 @@ li {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.parallax-two {
-  /* The image used */
-  background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline.svg");
-  /* Full height */
-  height: 100%;
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
 .clients {
   padding: 4em;
-  text-align: center; }
-  .clients .row .row--item__logo {
-    float: none;
-    width: 25%;
-    display: table-cell;
-    vertical-align: middle; }
-    .clients .row .row--item__logo a {
-      border-bottom: none; }
-      .clients .row .row--item__logo a:hover {
+  text-align: center;
+  background: #d3d3d3; }
+  .clients .row {
+    clear: both;
+    display: inline-flex; }
+    .clients .row .row--item__logo {
+      float: none;
+      width: 25%;
+      display: table-cell;
+      vertical-align: middle; }
+      .clients .row .row--item__logo a {
         border-bottom: none; }
-      .clients .row .row--item__logo a img {
-        display: block;
-        width: 100%;
-        height: auto;
-        padding: 4em;
-        filter: grayscale(100%); }
-        .clients .row .row--item__logo a img:hover {
-          filter: grayscale(0%); }
+        .clients .row .row--item__logo a:hover {
+          border-bottom: none; }
+        .clients .row .row--item__logo a img {
+          display: block;
+          width: 100%;
+          height: auto;
+          padding: 4em;
+          filter: grayscale(100%); }
+          .clients .row .row--item__logo a img:hover {
+            filter: grayscale(0%); }
 
 footer {
   background: #191719;
   height: 100%;
   min-height: 400px;
-  color: lightgrey;
+  color: #d3d3d3;
   padding: 8em 0;
   text-align: center; }
   footer a {
     font-size: 1.25em;
-    color: lightgrey;
+    color: #d3d3d3;
     display: inline-block;
     border-bottom: none; }
   footer a:after {
@@ -324,9 +335,17 @@ footer {
     font-size: .75em; } }
 @media only screen and (min-device-width: 820px) {
   /* LARGE */
-  .services .service {
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto; } }
+  .services {
+    padding: 4em 0; }
+    .services .service {
+      width: calc(100% / 3);
+      display: inline-block;
+      float: left;
+      margin-left: auto;
+      margin-right: auto; }
+      .services .service h1 {
+        font-size: 1.25em; }
+      .services .service p {
+        font-size: 1em; } }
 
 /*# sourceMappingURL=main.css.map */

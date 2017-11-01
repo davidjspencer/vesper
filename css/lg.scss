@@ -3,10 +3,20 @@
 /* LARGE */
 
 	.services {
+		padding: 4em 0;
 		.service {
-			width: 70%;
+			width: calc(100% / 3);
+			display: inline-block;
+			float: left;
 			margin-left: auto;
 			margin-right: auto;
+
+			h1 {
+				font-size: 1.25em;
+			}
+			p {
+				font-size: 1em;
+			}
 		}
 	}
 

@@ -66,6 +66,27 @@ li {
 }
 .hero {
   width: 100%;
+  position: relative;
+/*  &::before {
+  	content: "";
+  	position: absolute;
+  	height: 100%;
+  	width: 100%;
+  	top: 0;
+  	left: 0;
+  	background: rgba(10,10,10,.5);
+  }*/
+
+  .header-band {
+  	position: absolute;
+  	height: 8em;
+  	width: 100%;
+  	bottom: 0;
+  	left: 0;
+  	background: $purple;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to right, $aqua, $purple);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to right, $aqua, $purple); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
 }
 .header {
 	background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
@@ -77,25 +98,24 @@ li {
 }
 
 .services {
-	background: $purple;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to right, $aqua, $purple);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to right, $aqua, $purple); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	overflow: auto;
+	position: relative;
 
 	h1,
 	p {
-		color: $white;
+		color: $black;
 	}
 
 	.service {
 		width: 100%;
 		text-align: center;
-		padding: 10%;
+		padding: 4em;
 
 		.icon {
 			margin: 4em 0;
 
-			img{
-				width: 200px;
+			img {
+				width: 50%;
 				height: auto;
 			}
 		}
@@ -116,25 +136,15 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax-two {
-    /* The image used */
-    background-image: url('../img/Vesper_HealthCare_Marketing_Black_Outline.svg');
-
-    /* Full height */
-		height: 100%;
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .clients {
 	padding: 4em;
 	text-align: center;
+	background: $lightgrey;
 
 	.row {
+		clear: both;
+		display: inline-flex;
 
 		.row--item__logo {
 	    float: none;
@@ -167,12 +177,12 @@ footer {
 	background: $black;
 	height: 100%;
 	min-height: 400px;
-	color: lightgrey;
+	color: $lightgrey;
 	padding: 8em 0;
 	text-align: center;
 	a {
 		font-size: 1.25em;
-		color: lightgrey;
+		color: $lightgrey;
 		display: inline-block;
 		border-bottom: none;
 	}
