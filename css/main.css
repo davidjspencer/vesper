@@ -153,6 +153,8 @@ footer {
   footer a:hover:after {
     width: 100%;
     background: #ef32d9; }
+  footer h1 {
+    color: #d3d3d3; }
   footer p {
     font-size: .75em; }
   footer .footer-col {
