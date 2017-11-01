@@ -37,8 +37,8 @@ h3 {
 	letter-spacing: .2em;
 
 	span {
-		font-weight: 400;
-		font-variant: small-caps;
+		/*font-weight: 400;
+		font-variant: small-caps;*/
 	}
 }
 
@@ -50,8 +50,8 @@ li {
 	font-size: 1.2em;
 
 	span {
-		font-weight: 400;
-		font-variant: small-caps;
+		/*font-weight: 400;
+		font-variant: small-caps;*/
 	}
 }
 
@@ -83,10 +83,10 @@ li {
   	width: 100%;
   	bottom: 0;
   	left: 0;
-  	background: $purple;  /* fallback for old browsers */
-		background: -webkit-linear-gradient(to right, $aqua, $purple);  /* Chrome 10-25, Safari 5.1-6 */
-		background: linear-gradient(to right, $aqua, $purple); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  }
+  	background: $lightgrey;
+/*		background: -webkit-linear-gradient(to right, $aqua, $purple);
+		background: linear-gradient(to right, $aqua, $purple); */
+	}
 }
 .header {
 	background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
