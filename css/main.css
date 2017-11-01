@@ -10,7 +10,7 @@ html {
   height: 100%; }
 
 a {
-  color: #5A5A5A;
+  color: #191719;
   text-decoration: none;
   padding-bottom: 2px;
   border-bottom: 1px solid #89fffd; }
@@ -21,7 +21,8 @@ h3 {
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   font-size: 2.5em;
-  letter-spacing: .2em; }
+  letter-spacing: .2em;
+  color: #191719; }
   h1 span,
   h2 span,
   h3 span {
@@ -33,7 +34,8 @@ li {
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   letter-spacing: .15em;
-  font-size: 1.2em; }
+  font-size: 1.2em;
+  color: #191719; }
   p span,
   li span {
     /*font-weight: 400;
@@ -175,7 +177,7 @@ footer {
     height: 50vh;
 		width: 100vw;
 		padding: 20vh 0;*/
-    display: none; }
+    /*display: none;*/ }
 
   .parallax {
     background-image: url("../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg"); }
