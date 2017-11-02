@@ -78,6 +78,16 @@ li {
   	left: 0;
   	background: rgba(10,10,10,.5);
   }*/
+	.img-container {
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;
+		img {
+			width: 100%;
+			height: auto;
+
+		}
+	}
 
   .header-band {
   	position: absolute;
@@ -127,8 +137,8 @@ li {
 .parallax {
     /* The image used */
     /*background-image: url('../img/grad.jpg');*/
-		background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
-
+/*		background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
+*/
     /* Full height */
     height: 100%;
 
