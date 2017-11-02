@@ -190,7 +190,8 @@ footer {
     /*display: none;*/ }
 
   .parallax {
-    background-image: url("../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg"); }
+    /*		background-image: url('../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg');
+    */ }
 
   .parallax-two {
     background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); }
