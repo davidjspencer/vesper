@@ -21,6 +21,10 @@
     -moz-animation: dash 3s linear forwards;
     animation: dash 3s linear forwards, FillIn 2.1s ease-out;
 	}
+	#loveKnot,
+	#loveKnot2 {
+		animation: FillIn 2.1s ease-out;
+	}
 	@-webkit-keyframes dash {
 
     to {
@@ -51,7 +55,7 @@
 	<path id="r" class="st0" d="M709.8,257.5c6.2-4.5,14.2-7.1,23.3-7.1v3.7c-11.1,0.3-19.9,4-26.1,11.1c-6.5,7.1-10.2,16.7-11.1,29.2
 		v52.8h-3.7v-97h3.7v26.4C699,268.5,703.5,262,709.8,257.5z"/>
 </g>
-<g>
+<g id="loveKnot">
 
 		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-419.5935" y1="1545.9802" x2="-370.6508" y2="1497.0377" gradientTransform="matrix(0.7071 0.7071 -0.7071 0.7071 1600.9139 -479.0961)">
 		<stop  offset="0" style="stop-color:#EF32D9"/>
@@ -103,7 +107,7 @@
 		c-0.3,0.3-0.3,0.3-0.6,0.6c-0.3,0.3-0.3,0.3-0.6,0.6c-3.4,3.4-6.8,7.1-9.6,11.1c-2,2.6-3.7,4.8-5.4,7.4
 		C222.1,307.1,221,308.8,219.9,310.5z"/>
 </g>
-<g>
+<g id="loveKnot2">
 
 		<linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-168.2945" y1="1276.3314" x2="-102.904" y2="1276.3314" gradientTransform="matrix(0.7071 0.7071 -0.7071 0.7071 1600.9139 -479.0961)">
 		<stop  offset="0" style="stop-color:#EF32D9"/>
