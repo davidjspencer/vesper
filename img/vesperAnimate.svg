@@ -16,10 +16,10 @@
 	#Vspr {
 		stroke-dasharray: 1000;
     stroke-dashoffset: 1000;
-    -webkit-animation: dash 3s linear forwards;
-    -o-animation: dash 3s linear forwards;
-    -moz-animation: dash 3s linear forwards;
-    animation: dash 3s linear forwards, FillIn 2.1s ease-out;
+    -webkit-animation: dash 2.4s linear forwards;
+    -o-animation: dash 2.4s linear forwards;
+    -moz-animation: dash 2.4s linear forwards;
+    animation: dash 2.4s linear forwards, FillIn 2.1s ease-in;
 	}
 	#loveKnot,
 	#loveKnot2 {
