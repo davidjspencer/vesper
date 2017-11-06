@@ -62,9 +62,12 @@ li {
     	background: rgba(10,10,10,.5);
     }*/ }
   .hero .img-container {
-    width: 50%;
+    display: flex;
+    width: 80%;
+    height: 100%;
     margin-left: auto;
-    margin-right: auto; }
+    margin-right: auto;
+    vertical-align: middle; }
     .hero .img-container img {
       width: 100%;
       height: auto; }
@@ -76,7 +79,7 @@ li {
     left: 0;
     background: #d3d3d3;
     /*		background: -webkit-linear-gradient(to right, $aqua, $purple);
-    		background: linear-gradient(to right, $aqua, $purple); */ }
+    		background: linear-gradient(to right, $aqua, $purple);*/ }
 
 .header {
   background-image: url("../img/Vesper_HealthCare_Marketing_White_RGB.svg");

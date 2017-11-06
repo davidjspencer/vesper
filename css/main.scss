@@ -79,13 +79,15 @@ li {
   	background: rgba(10,10,10,.5);
   }*/
 	.img-container {
-		width: 50%;
+		display: flex;
+		width: 80%;
+		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
+		vertical-align: middle;
 		img {
 			width: 100%;
 			height: auto;
-
 		}
 	}
 
@@ -97,7 +99,7 @@ li {
   	left: 0;
   	background: $lightgrey;
 /*		background: -webkit-linear-gradient(to right, $aqua, $purple);
-		background: linear-gradient(to right, $aqua, $purple); */
+		background: linear-gradient(to right, $aqua, $purple);*/
 	}
 }
 .header {
