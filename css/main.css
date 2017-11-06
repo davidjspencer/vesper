@@ -237,7 +237,7 @@ video {
   min-height: 100%;
   z-index: -100;
   background-size: cover;
-  filter: grayscale(100%); }
+  /*filter: grayscale(100%);*/ }
 
 /* Icon 3 */
 .icon-three {
@@ -372,6 +372,9 @@ video {
       .services .service h1 {
         font-size: 1.25em; }
       .services .service p {
-        font-size: 1em; } }
+        font-size: 1em; }
+
+  footer {
+    margin-top: 4em; } }
 
 /*# sourceMappingURL=main.css.map */
