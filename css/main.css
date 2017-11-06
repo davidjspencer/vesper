@@ -71,15 +71,18 @@ li {
     .hero .img-container img {
       width: 100%;
       height: auto; }
+  .hero .header-band-top,
   .hero .header-band {
     position: absolute;
     height: 8em;
     width: 100%;
     bottom: 0;
     left: 0;
-    background: #d3d3d3;
+    background: #191719;
     /*		background: -webkit-linear-gradient(to right, $aqua, $purple);
     		background: linear-gradient(to right, $aqua, $purple);*/ }
+  .hero .header-band-top {
+    top: 0; }
 
 .header {
   background-image: url("../img/Vesper_HealthCare_Marketing_White_RGB.svg");

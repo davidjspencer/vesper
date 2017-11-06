@@ -91,15 +91,20 @@ li {
 		}
 	}
 
+	.header-band-top,
   .header-band {
   	position: absolute;
   	height: 8em;
   	width: 100%;
   	bottom: 0;
   	left: 0;
-  	background: $lightgrey;
+  	background: $black;
 /*		background: -webkit-linear-gradient(to right, $aqua, $purple);
 		background: linear-gradient(to right, $aqua, $purple);*/
+	}
+	.header-band-top {
+		top: 0;
+
 	}
 }
 .header {
