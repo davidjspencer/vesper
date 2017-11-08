@@ -106,6 +106,9 @@ li {
 		top: 0;
 
 	}
+	.about {
+		background: $lightgrey;
+	}
 }
 .header {
 	background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
@@ -147,6 +150,20 @@ li {
     /*background-image: url('../img/grad.jpg');*/
 /*		background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
 */
+    /* Full height */
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-about {
+    /* The image used */
+    /*background-image: url('../img/grad.jpg');*/
+		/*background-image: url('../img/ECG_BG.svg');*/
+
     /* Full height */
     height: 100%;
 
