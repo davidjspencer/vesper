@@ -107,7 +107,7 @@ li {
     .services .service .icon {
       margin: 4em 0; }
       .services .service .icon img {
-        width: 50%;
+        width: 100%;
         height: auto; }
 
 .parallax {
