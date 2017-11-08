@@ -4,6 +4,21 @@
 	.icon-three {
 		font-size: .5em;
 	}
+
+	.hide-sm {
+		display: none;
+	}
+
+h1 {
+		font-weight: 200;
+	}
+
+	.container {
+		width: 100%;
+	}
+	.service {
+		border-bottom: 2em solid $service-border;
+	}
 }
 
 @media only screen and (min-device-width : 695px) and (max-device-width : 819px)  {
@@ -11,5 +26,20 @@
 /* ####    MEDIUM     #### */
 	.icon-three {
 		font-size: .75em;
+	}
+
+	.hide-sm {
+		display: none;
+	}
+
+h1 {
+		font-weight: 200;
+	}
+
+	.container {
+		width: 100%;
+	}
+	.service {
+		border-bottom: 2em solid $service-border;
 	}
 }

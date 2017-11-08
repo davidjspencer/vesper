@@ -11,6 +11,7 @@ $white: white;
 $aqua: #89fffd;
 $purple: #ef32d9;
 $lightgrey: #d3d3d3;
+$service-border: $aqua;
 * {
 	box-sizing: border-box;
 }
@@ -33,7 +34,7 @@ h2,
 h3 {
 	font-family: $mont;
 	font-weight: 100;
-	font-size: 2.5em;
+	font-size: 1.9em;
 	letter-spacing: .2em;
 	color: $black;
 
@@ -56,7 +57,9 @@ li {
 		font-variant: small-caps;*/
 	}
 }
+.cross {
 
+}
 .hide {
 	display: none;
 }
@@ -80,7 +83,7 @@ li {
   }*/
 	.img-container {
 		display: flex;
-		width: 80%;
+		width: 100%;
 		height: 100%;
 		margin-left: auto;
 		margin-right: auto;
@@ -98,7 +101,7 @@ li {
   	width: 100%;
   	bottom: 0;
   	left: 0;
-  	background: $black;
+  	background: $lightgrey;
 /*		background: -webkit-linear-gradient(to right, $aqua, $purple);
 		background: linear-gradient(to right, $aqua, $purple);*/
 	}
@@ -135,13 +138,20 @@ li {
 		padding: 4em;
 
 		.icon {
-			margin: 4em 0;
+			margin: 3em 0;
 
 			img {
 				width: 100%;
 				height: auto;
 			}
 		}
+
+		/*.text {
+			p span {
+				color: $purple;
+				font-weight: bold;
+			}
+		}*/
 	}
 }
 
@@ -289,21 +299,21 @@ footer {
   		width: 100%;
   		overflow: auto;
 			.row--item__logo {
-	    display: inline-block !important;
-	    float: left !important;
-	    width: 50%;
+		    display: inline-block !important;
+		    float: left !important;
+		    width: 100%;
 
-	    a {
-	    	display: inline-block !important;
-	    	float: left !important;
-	      img {
-	        display: inline-block !important;
-	        width: 100% !important;
-	        height: auto;
-	        padding: 2em !important;
-	      }
-	    }
-	  }
+		    a {
+		    	display: inline-block !important;
+		    	float: left !important;
+		      img {
+		        display: inline-block !important;
+		        width: 100% !important;
+		        height: auto;
+		        padding: 2em !important;
+		      }
+		    }
+		  }
   	}
   }
 
@@ -320,16 +330,16 @@ footer {
 }
 
 video {
-position: fixed;
-right: 0;
-bottom: 0;
-width: auto;
-min-width: 100%;
-height: auto;
-min-height: 100%;
-z-index: -100;
-background-size: cover;
-/*filter: grayscale(100%);*/
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: auto;
+	min-width: 100%;
+	height: auto;
+	min-height: 100%;
+	z-index: -100;
+	background-size: cover;
+	filter: grayscale(100%);
 }
 
 @import 'menu';

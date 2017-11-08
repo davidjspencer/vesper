@@ -3,4 +3,18 @@
 	.icon-three {
 		font-size: .5em;
 	}
+
+	.hide-sm {
+		display: none;
+	}
+
+	h1 {
+		font-weight: 400;
+	}
+	.container {
+		width: 100%;
+	}
+	.service {
+		border-bottom: 2em solid $service-border;
+	}
 }
