@@ -84,7 +84,7 @@ li {
 	.img-container {
 		display: flex;
 		width: 100%;
-		height: 100%;
+		height: auto;
 		margin-left: auto;
 		margin-right: auto;
 		vertical-align: middle;
@@ -112,14 +112,6 @@ li {
 	.about {
 		background: $lightgrey;
 	}
-}
-.header {
-	background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
-	height: 100%;
-
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .services {
@@ -268,24 +260,7 @@ footer {
 	p {
 		font-weight: 400;
 	}
-	.header {
-		background-image: url('../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg');
-		height: 50vh;
-		width: 100vw;
-		padding: 20vh 0;
-	}
-  .parallax,
-  .parallax-two {
-    /*background-attachment: scroll;
-    height: 50vh;
-		width: 100vw;
-		padding: 20vh 0;*/
 
-		/*display: none;*/
-  }
-  .parallax {
-/*		background-image: url('../img/Vesper_HealthCare_Marketing_White_Outline_MOBILE.svg');
-*/  }
   .parallax-two {
   	background-image: url('../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg');
   }
