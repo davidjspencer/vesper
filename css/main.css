@@ -362,10 +362,9 @@ video {
   .hero {
     /*background-image: url('../img/beach2.jpg');*/
     background: white;
-    height: 60vh;
     display: flex;
     vertical-align: middle;
-    border-bottom: 2em solid #ef32d9; }
+    border-bottom: 4em solid #d3d3d3; }
     .hero .img-container {
       padding: 4em 0;
       width: 90%;
@@ -388,10 +387,9 @@ video {
   .hero {
     /*background-image: url('../img/beach2.jpg');*/
     background: white;
-    height: 60vh;
     display: flex;
     vertical-align: middle;
-    border-bottom: 2em solid #ef32d9; }
+    border-bottom: 4em solid #d3d3d3; }
     .hero .img-container {
       padding: 4em 0;
       width: 90%;
@@ -417,10 +415,9 @@ video {
   .hero {
     /*background-image: url('../img/beach2.jpg');*/
     background: white;
-    height: 60vh;
     display: flex;
     vertical-align: middle;
-    border-bottom: 2em solid #ef32d9; }
+    border-bottom: 4em solid #d3d3d3; }
     .hero .img-container {
       padding: 4em 0;
       width: 90%;
