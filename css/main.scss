@@ -12,6 +12,7 @@ $aqua: #89fffd;
 $purple: #ef32d9;
 $lightgrey: #d3d3d3;
 $service-border: $aqua;
+$gradient: linear-gradient(to right, $aqua, $purple);
 * {
 	box-sizing: border-box;
 }
@@ -37,14 +38,13 @@ h3 {
 	font-size: 1.9em;
 	letter-spacing: .2em;
 	color: $black;
-
 	span {
 		/*font-weight: 400;
 		font-variant: small-caps;*/
 	}
 }
 
-p,
+
 li {
 	font-family: $mont;
 	font-weight: 200;
@@ -56,6 +56,10 @@ li {
 		/*font-weight: 400;
 		font-variant: small-caps;*/
 	}
+}
+p {
+	font-family: $rale;
+	font-weight: 200;
 }
 .cross {
 
@@ -213,6 +217,7 @@ li {
 }
 
 footer {
+	position: relative;
 	background: $black;
 	height: 100%;
 	min-height: 400px;
@@ -251,6 +256,16 @@ footer {
 		display: inline-block;
 		float: left;
 		width: calc(100% / 3);
+	}
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 1em;
+		background: $gradient;
 	}
 }
 
@@ -315,6 +330,10 @@ video {
 	z-index: -100;
 	background-size: cover;
 	filter: grayscale(100%);
+}
+
+.VesperTagAni {
+	filter: drop-shadow(3px 3px 2px lighten($black, 20));
 }
 
 @import 'menu';
