@@ -7,6 +7,7 @@
 $mont: 'Montserrat', sans-serif;
 $rale: 'Raleway', sans-serif;
 $black: #191719; /* CMYK 10 10 0 90 */
+$black: #2E2E27; /* CMYK 0 0 15 82 */
 $white: white;
 $aqua: #89fffd;
 $purple: #ef32d9;
@@ -154,8 +155,8 @@ p {
 .parallax {
     /* The image used */
     /*background-image: url('../img/grad.jpg');*/
-/*		background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');
-*/
+		/*background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');*/
+
     /* Full height */
     height: 100%;
 
@@ -168,7 +169,7 @@ p {
 .parallax-about {
     /* The image used */
     /*background-image: url('../img/grad.jpg');*/
-		/*background-image: url('../img/ECG_BG.svg');*/
+		background-image: url('../img/beach2.jpg');
 
     /* Full height */
     height: 100%;
@@ -353,6 +354,73 @@ video {
 	filter: drop-shadow(3px 3px 2px lighten($black, 20));
 }
 
+/* ############
+
+		About
+
+		########### */
+
+.about {
+	position: relative;
+	height: 40vh;
+	margin: 0;
+
+	.about__half--top {
+		position: absolute;
+		content: "";
+		left: 0;
+		height: 50%;
+		width: 100%;
+		top: 0;
+		background: transparent;
+		vertical-align: middle;
+
+
+	}
+	h1 {
+		text-align: center;
+		font-size: 5em;
+		line-height: 100%;
+		filter: drop-shadow(3px 3px 2px lighten($black, 40));
+	}
+	&::after {
+		content: "";
+		position: absolute;
+		left: 50%;
+		bottom: 0;
+		height: 200px;
+		width: 200px;
+		border-radius: 50%;
+		transform: translate(-50%, 50%);
+		background: url('../img/Love_Knot_E.png');
+	}
+}
+
+.about-content {
+	background: $black;
+	min-height: 500px;
+	padding: 2em;
+
+	h2,
+	h3,
+	p {
+		color: $white;
+	}
+
+	h2 {
+		text-align: center;
+		margin-top: 4em;
+	}
+	.row {
+		width: 60%;
+		margin: 0 auto;
+	.col {
+		display: inline-block;
+		width: 50%;
+		float: left;
+	}
+	}
+}
 @import 'menu';
 @import 'sm';
 @import 'md';
