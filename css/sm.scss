@@ -33,8 +33,46 @@
 		border-bottom: 2em solid $service-border;
 	}
 
-	.about-content {
+	.clients {
+		width: 100%;
 		padding: 2em 0;
+		.row {
+			width: 100%;
+			.row--item__logo {
+				display: inline-block !important;
+				float: left;
+				width: 50%;
+
+				a {
+		    	display: inline-block !important;
+		    	float: left !important;
+		      img {
+		        display: inline-block !important;
+		        width: 100% !important;
+		        height: auto;
+		      }
+		    }
+			}
+		}
+	}
+
+	footer {
+  	height: 100%;
+	  .footer-col {
+			display: inline-block;
+			float: left;
+			width: 100%;
+
+			text-align: center;
+		}
+	}
+/*
+	 ###########
+		ABOUT
+	 ###########
+*/
+	.about-content {
+		padding: 4em 0;
 		.row {
 
 			.col {

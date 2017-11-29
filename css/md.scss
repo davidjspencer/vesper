@@ -32,6 +32,24 @@
 	.service {
 		border-bottom: 2em solid $service-border;
 	}
+	.clients {
+		.row {
+			.row--item__logo {
+				float: left;
+				width: 50%;
+			}
+		}
+	}
+	footer {
+  	height: 100%;
+	  .footer-col {
+			display: inline-block;
+			float: left;
+			width: 100%;
+
+			text-align: center;
+		}
+	}
 }
 
 @media only screen and (min-device-width : 695px) and (max-device-width : 819px)  {
@@ -42,7 +60,7 @@
 	}
 
 	.hide-sm {
-		display: none;
+		display: none !important;
 	}
 
 	h1 {
@@ -67,5 +85,25 @@
 	}
 	.service {
 		border-bottom: 2em solid $service-border;
+	}
+
+	.clients {
+		.row {
+			.row--item__logo {
+				float: left;
+				width: 50%;
+			}
+		}
+	}
+
+	footer {
+  	height: 100%;
+	  .footer-col {
+			display: inline-block;
+			float: left;
+			width: 100%;
+
+			text-align: center;
+		}
 	}
 }

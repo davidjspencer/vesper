@@ -147,21 +147,25 @@ p {
   background: #d3d3d3; }
   .clients .row {
     clear: both;
-    display: inline-flex; }
+    display: inline-flex;
+    width: 100%;
+    flex-wrap: wrap; }
     .clients .row .row--item__logo {
-      float: none;
       width: 25%;
-      display: table-cell;
-      vertical-align: middle; }
+      padding: 2em;
+      align-items: center;
+      justify-content: center; }
       .clients .row .row--item__logo a {
         border-bottom: none; }
         .clients .row .row--item__logo a:hover {
           border-bottom: none; }
         .clients .row .row--item__logo a img {
           display: block;
-          width: 100%;
+          width: 60%;
+          margin-left: auto;
+          margin-right: auto;
           height: auto;
-          padding: 4em;
+          padding: 2em;
           filter: grayscale(100%); }
           .clients .row .row--item__logo a img:hover {
             filter: grayscale(0%); }
@@ -225,35 +229,7 @@ footer {
     font-weight: 400; }
 
   .parallax-two {
-    background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); }
-
-  .clients {
-    width: 100vw;
-    overflow: auto;
-    padding: 2em 0; }
-    .clients .row {
-      width: 100%;
-      overflow: auto; }
-      .clients .row .row--item__logo {
-        display: inline-block !important;
-        float: left !important;
-        width: 100%; }
-        .clients .row .row--item__logo a {
-          display: inline-block !important;
-          float: left !important; }
-          .clients .row .row--item__logo a img {
-            display: inline-block !important;
-            width: 100% !important;
-            height: auto;
-            padding: 2em !important; }
-
-  footer {
-    height: 100%; }
-    footer .footer-col {
-      display: inline-block;
-      float: left;
-      width: 100%;
-      text-align: center; } }
+    background-image: url("../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg"); } }
 video {
   position: fixed;
   right: 0;
@@ -308,14 +284,14 @@ video {
 .about-content {
   overflow: auto;
   background: #2E2E27;
-  min-height: 500px; }
+  min-height: 500px;
+  padding: 8em 0; }
   .about-content h2,
   .about-content h3,
   .about-content p {
     color: white; }
   .about-content h2 {
-    text-align: center;
-    margin-top: 4em; }
+    text-align: center; }
   .about-content .row {
     width: 60%;
     margin: 0 auto; }
@@ -461,8 +437,38 @@ video {
   .service {
     border-bottom: 2em solid #89fffd; }
 
-  .about-content {
+  .clients {
+    width: 100%;
     padding: 2em 0; }
+    .clients .row {
+      width: 100%; }
+      .clients .row .row--item__logo {
+        display: inline-block !important;
+        float: left;
+        width: 50%; }
+        .clients .row .row--item__logo a {
+          display: inline-block !important;
+          float: left !important; }
+          .clients .row .row--item__logo a img {
+            display: inline-block !important;
+            width: 100% !important;
+            height: auto; }
+
+  footer {
+    height: 100%; }
+    footer .footer-col {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      text-align: center; }
+
+  /*
+  	 ###########
+  		ABOUT
+  	 ###########
+  */
+  .about-content {
+    padding: 4em 0; }
     .about-content .row .col {
       width: 100%; } }
 @media only screen and (min-device-width: 570px) and (max-device-width: 694px) {
@@ -492,14 +498,26 @@ video {
     width: 90%; }
 
   .service {
-    border-bottom: 2em solid #89fffd; } }
+    border-bottom: 2em solid #89fffd; }
+
+  .clients .row .row--item__logo {
+    float: left;
+    width: 50%; }
+
+  footer {
+    height: 100%; }
+    footer .footer-col {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      text-align: center; } }
 @media only screen and (min-device-width: 695px) and (max-device-width: 819px) {
   /* ####    MEDIUM     #### */
   .icon-three {
     font-size: .75em; }
 
   .hide-sm {
-    display: none; }
+    display: none !important; }
 
   h1 {
     font-weight: 200; }
@@ -520,7 +538,19 @@ video {
     width: 90%; }
 
   .service {
-    border-bottom: 2em solid #89fffd; } }
+    border-bottom: 2em solid #89fffd; }
+
+  .clients .row .row--item__logo {
+    float: left;
+    width: 50%; }
+
+  footer {
+    height: 100%; }
+    footer .footer-col {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      text-align: center; } }
 @media only screen and (min-device-width: 820px) {
   /* LARGE */
   .hide-lg {
