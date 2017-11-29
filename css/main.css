@@ -427,7 +427,7 @@ video {
 
 @media only screen and (max-device-width: 569px) {
   .icon-three {
-    font-size: .5em; }
+    font-size: .65em; }
 
   .hide-sm {
     display: none !important; }
@@ -436,7 +436,8 @@ video {
     font-weight: 100; }
 
   .container {
-    width: 90%; }
+    width: 93.75%;
+    max-width: 300px; }
 
   .hero {
     /*background-image: url('../img/beach2.jpg');*/
@@ -485,50 +486,12 @@ video {
   */
   .about-content {
     padding: 4em 0; }
-    .about-content .row .col {
-      width: 100%; } }
+    .about-content .row {
+      width: 90%; }
+      .about-content .row .col {
+        width: 100%; } }
 @media only screen and (min-device-width: 570px) and (max-device-width: 694px) {
   /* ####    INBETWEEN     #### */
-  .icon-three {
-    font-size: .5em; }
-
-  .hide-sm {
-    display: none !important; }
-
-  h1 {
-    font-weight: 200; }
-
-  .hero {
-    /*background-image: url('../img/beach2.jpg');*/
-    background: white;
-    display: flex;
-    vertical-align: middle;
-    border-bottom: 4em solid #d3d3d3; }
-    .hero .img-container {
-      padding: 4em 0;
-      width: 90%;
-      margin-left: auto;
-      margin-right: auto; }
-
-  .container {
-    width: 90%; }
-
-  .service {
-    border-bottom: 2em solid #89fffd; }
-
-  .clients .row .row--item__logo {
-    float: left;
-    width: 50%; }
-
-  footer {
-    height: 100%; }
-    footer .footer-col {
-      display: inline-block;
-      float: left;
-      width: 100%;
-      text-align: center; } }
-@media only screen and (min-device-width: 695px) and (max-device-width: 819px) {
-  /* ####    MEDIUM     #### */
   .icon-three {
     font-size: .75em; }
 
@@ -546,12 +509,13 @@ video {
     border-bottom: 4em solid #d3d3d3; }
     .hero .img-container {
       padding: 4em 0;
-      width: 90%;
+      width: 60%;
       margin-left: auto;
       margin-right: auto; }
 
   .container {
-    width: 90%; }
+    width: 93.75%;
+    max-width: 534px; }
 
   .service {
     border-bottom: 2em solid #89fffd; }
@@ -566,11 +530,86 @@ video {
       display: inline-block;
       float: left;
       width: 100%;
-      text-align: center; } }
+      text-align: center; }
+
+  /* About */
+  .about-content {
+    padding: 4em 0; }
+    .about-content .row {
+      width: 90%; }
+      .about-content .row .col {
+        width: 50%; }
+      .about-content .row .col:first-child {
+        padding-right: 1em; }
+      .about-content .row .col:nth-child(2) {
+        padding-left: 1em; }
+
+  footer {
+    margin-top: 8em; } }
+@media only screen and (min-device-width: 695px) and (max-device-width: 819px) {
+  /* ####    MEDIUM     #### */
+  .icon-three {
+    font-size: 1em; }
+
+  .hide-sm {
+    display: none !important; }
+
+  h1 {
+    font-weight: 200; }
+
+  .hero {
+    /*background-image: url('../img/beach2.jpg');*/
+    background: white;
+    display: flex;
+    vertical-align: middle;
+    border-bottom: 4em solid #d3d3d3; }
+    .hero .img-container {
+      padding: 4em 0;
+      width: 60%;
+      margin-left: auto;
+      margin-right: auto; }
+
+  .container {
+    width: 93.75%;
+    max-width: 768px; }
+
+  .service {
+    border-bottom: 2em solid #89fffd; }
+
+  .clients .row .row--item__logo {
+    float: left;
+    width: 50%; }
+
+  footer {
+    height: 100%; }
+    footer .footer-col {
+      display: inline-block;
+      float: left;
+      width: 100%;
+      text-align: center; }
+
+  /* About */
+  .about-content {
+    padding: 4em 0; }
+    .about-content .row {
+      width: 90%; }
+      .about-content .row .col {
+        width: 50%; }
+      .about-content .row .col:first-child {
+        padding-right: 1em; }
+      .about-content .row .col:nth-child(2) {
+        padding-left: 1em; }
+
+  footer {
+    margin-top: 8em; } }
 @media only screen and (min-device-width: 820px) {
   /* LARGE */
   .hide-lg {
     display: none !important; }
+
+  .container {
+    width: 93.75%;
+    max-width: 1003px; }
 
   .hero .img-container {
     width: 80%;
@@ -609,13 +648,13 @@ video {
     margin-top: 8em; } }
 @media only screen and (min-device-width: 1070px) {
   .container {
-    max-width: 1140px;
+    max-width: 1237px;
     margin-right: auto;
     margin-left: auto; }
 
   .services .row {
     /* row as container for the services */
-    max-width: 1140px;
+    max-width: 1237px;
     margin-right: auto;
     margin-left: auto; } }
 

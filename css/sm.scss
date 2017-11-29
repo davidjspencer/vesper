@@ -1,7 +1,7 @@
 @media only screen and (max-device-width : 569px) {
 
 	.icon-three {
-		font-size: .5em;
+		font-size: .65em;
 	}
 
 	.hide-sm {
@@ -12,7 +12,8 @@
 		font-weight: 100;
 	}
 	.container {
-		width: 90%;
+		width: 93.75%;
+		max-width: 300px;
 	}
 	.hero {
 		/*background-image: url('../img/beach2.jpg');*/
@@ -74,7 +75,7 @@
 	.about-content {
 		padding: 4em 0;
 		.row {
-
+			width: 90%;
 			.col {
 				width: 100%;
 			}
