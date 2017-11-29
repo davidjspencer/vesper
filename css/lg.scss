@@ -2,7 +2,7 @@
 
 /* LARGE */
 	.hide-lg {
-		display: none;
+		display: none !important;
 	}
 	.hero {
 		.img-container {
@@ -46,6 +46,15 @@
 		}
 	}
 
+	.row {
+
+		.col:first-child {
+			padding-right: 1em;
+		}
+		.col:nth-child(2) {
+			padding-left: 1em;
+		}
+	}
 	footer {
 		margin-top: 8em;
 	}

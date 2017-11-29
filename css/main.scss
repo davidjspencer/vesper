@@ -23,6 +23,13 @@ html {
 	font-size: 16px;
   height: 100%;
 }
+
+.container {
+	max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 a {
 	color: $black;
 	text-decoration: none;
@@ -274,7 +281,7 @@ footer {
 		content: "";
 		position: absolute;
 
-		z-index: 1000;
+		z-index: 5;
 		left: 50%;
 		top: 4em;
 		width: 40px;
@@ -362,44 +369,52 @@ video {
 
 .about {
 	position: relative;
-	height: 40vh;
+
+	height: 50vh;
+
 	margin: 0;
+
 
 	.about__half--top {
 		position: absolute;
+		display: flex;
 		content: "";
 		left: 0;
-		height: 50%;
+		height: 100%;
 		width: 100%;
 		top: 0;
 		background: transparent;
-		vertical-align: middle;
+		align-items: center;
+	  justify-content: center;
 
 
 	}
 	h1 {
 		text-align: center;
-		font-size: 5em;
-		line-height: 100%;
+		font-size: 4em;
 		filter: drop-shadow(3px 3px 2px lighten($black, 40));
 	}
-	&::after {
-		content: "";
+	.circle {
 		position: absolute;
 		left: 50%;
 		bottom: 0;
-		height: 200px;
-		width: 200px;
+		height: 100px;
+		width: 100px;
 		border-radius: 50%;
 		transform: translate(-50%, 50%);
-		background: url('../img/Love_Knot_E.png');
+
+		img{
+			width: 100%;
+			height: auto;
+		}
 	}
 }
 
 .about-content {
+	overflow: auto;
 	background: $black;
 	min-height: 500px;
-	padding: 2em;
+
 
 	h2,
 	h3,
@@ -414,14 +429,17 @@ video {
 	.row {
 		width: 60%;
 		margin: 0 auto;
-	.col {
-		display: inline-block;
-		width: 50%;
-		float: left;
-	}
+
+		.col {
+			display: inline-block;
+			width: 50%;
+			float: left;
+
+		}
 	}
 }
 @import 'menu';
 @import 'sm';
 @import 'md';
 @import 'lg';
+@import 'xl';

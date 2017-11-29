@@ -9,10 +9,10 @@
 	}
 
 	h1 {
-		font-weight: 400;
+		font-weight: 100;
 	}
 	.container {
-		width: 100%;
+		width: 90%;
 	}
 	.hero {
 		/*background-image: url('../img/beach2.jpg');*/
@@ -31,5 +31,15 @@
 	}
 	.service {
 		border-bottom: 2em solid $service-border;
+	}
+
+	.about-content {
+		padding: 2em 0;
+		.row {
+
+			.col {
+				width: 100%;
+			}
+		}
 	}
 }
