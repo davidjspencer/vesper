@@ -329,7 +329,7 @@ video {
 .hamburger {
   top: 50%;
   left: 25%;
-  width: 2.5em;
+  width: 3em;
   height: .25em;
   background: #ef32d9;
   /* fallback for old browsers */
@@ -351,7 +351,7 @@ video {
 .hamburger-three:after {
   content: '';
   position: absolute;
-  width: 2.5em;
+  width: 3em;
   height: .25em;
   background: #ef32d9;
   /* fallback for old browsers */
