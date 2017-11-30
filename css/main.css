@@ -35,17 +35,19 @@ h3 {
     /*font-weight: 400;
     font-variant: small-caps;*/ }
 
-li {
+li a {
+  /* menu items */
   font-family: "Montserrat", sans-serif;
   font-weight: 200;
   letter-spacing: .15em;
   font-size: 1.2em;
   color: #2E2E27; }
-  li span {
+  li a span {
     /*font-weight: 400;
     font-variant: small-caps;*/ }
 
-p {
+p,
+.supporting-page__content li {
   font-family: "Raleway", sans-serif;
   font-weight: 200;
   line-height: 1.5; }
@@ -304,7 +306,8 @@ video {
     opacity: .9; }
   .supporting-page__content h2,
   .supporting-page__content h3,
-  .supporting-page__content p {
+  .supporting-page__content p,
+  .supporting-page__content li {
     color: white; }
   .supporting-page__content h2 {
     text-align: center; }
