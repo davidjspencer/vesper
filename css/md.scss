@@ -52,8 +52,12 @@
 		}
 	}
 
+	footer {
+		margin-top: 8em;
+	}
+
 	/* About */
-	.about-content {
+	.supporting-page-content {
 		padding: 4em 0;
 		.row {
 			width: 90%;
@@ -67,9 +71,6 @@
 				padding-left: 1em;
 			}
 		}
-	}
-	footer {
-		margin-top: 8em;
 	}
 }
 
@@ -130,7 +131,7 @@
 	}
 
 	/* About */
-	.about-content {
+	.supporting-page-content {
 		padding: 4em 0;
 		.row {
 			width: 90%;

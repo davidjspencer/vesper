@@ -122,7 +122,7 @@ p {
 		top: 0;
 
 	}
-	.about {
+	.supporting-page {
 		background: $lightgrey;
 	}
 }
@@ -174,7 +174,7 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax-about {
+.parallax-supporting-page {
     /* The image used */
     /*background-image: url('../img/grad.jpg');*/
 		background-image: url('../img/beach2.jpg');
@@ -338,7 +338,7 @@ video {
 
 		########### */
 
-.about {
+.supporting-page {
 	position: relative;
 
 	height: 50vh;
@@ -346,7 +346,7 @@ video {
 	margin: 0;
 
 
-	.about__half--top {
+	.supporting-page__half--top {
 		position: absolute;
 		display: flex;
 		content: "";
@@ -381,7 +381,7 @@ video {
 	}
 }
 
-.about-content {
+.supporting-page__content {
 	position: relative;
 	overflow: auto;
 	z-index: -1;

@@ -92,7 +92,7 @@ p {
     		background: linear-gradient(to right, $aqua, $purple);*/ }
   .hero .header-band-top {
     top: 0; }
-  .hero .about {
+  .hero .supporting-page {
     background: #d3d3d3; }
 
 .services {
@@ -130,7 +130,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.parallax-about {
+.parallax-supporting-page {
   /* The image used */
   /*background-image: url('../img/grad.jpg');*/
   background-image: url("../img/beach2.jpg");
@@ -251,11 +251,11 @@ video {
 		About
 
 		########### */
-.about {
+.supporting-page {
   position: relative;
   height: 50vh;
   margin: 0; }
-  .about .about__half--top {
+  .supporting-page .supporting-page__half--top {
     position: absolute;
     display: flex;
     content: "";
@@ -266,11 +266,11 @@ video {
     background: transparent;
     align-items: center;
     justify-content: center; }
-  .about h1 {
+  .supporting-page h1 {
     text-align: center;
     /*font-size: 4em;*/
     filter: drop-shadow(3px 3px 2px #9a9a87); }
-  .about .circle {
+  .supporting-page .circle {
     position: absolute;
     left: 50%;
     bottom: 0;
@@ -278,11 +278,11 @@ video {
     width: 100px;
     border-radius: 50%;
     transform: translate(-50%, 50%); }
-    .about .circle img {
+    .supporting-page .circle img {
       width: 100%;
       height: auto; }
 
-.about-content {
+.supporting-page__content {
   position: relative;
   overflow: auto;
   z-index: -1;
@@ -292,7 +292,7 @@ video {
   background-size: cover;
   min-height: 500px;
   padding: 12em 0; }
-  .about-content::before {
+  .supporting-page__content::before {
     position: absolute;
     content: "";
     width: 100%;
@@ -302,16 +302,16 @@ video {
     z-index: -2;
     background: #2E2E27;
     opacity: .9; }
-  .about-content h2,
-  .about-content h3,
-  .about-content p {
+  .supporting-page__content h2,
+  .supporting-page__content h3,
+  .supporting-page__content p {
     color: white; }
-  .about-content h2 {
+  .supporting-page__content h2 {
     text-align: center; }
-  .about-content .row {
+  .supporting-page__content .row {
     width: 60%;
     margin: 0 auto; }
-    .about-content .row .col {
+    .supporting-page__content .row .col {
       display: inline-block;
       width: 50%;
       float: left; }
@@ -484,11 +484,11 @@ video {
   		ABOUT
   	 ###########
   */
-  .about-content {
+  .supporting-page__content {
     padding: 4em 0; }
-    .about-content .row {
+    .supporting-page__content .row {
       width: 90%; }
-      .about-content .row .col {
+      .supporting-page__content .row .col {
         width: 100%; } }
 @media only screen and (min-device-width: 570px) and (max-device-width: 694px) {
   /* ####    INBETWEEN     #### */
@@ -532,20 +532,20 @@ video {
       width: 100%;
       text-align: center; }
 
-  /* About */
-  .about-content {
-    padding: 4em 0; }
-    .about-content .row {
-      width: 90%; }
-      .about-content .row .col {
-        width: 50%; }
-      .about-content .row .col:first-child {
-        padding-right: 1em; }
-      .about-content .row .col:nth-child(2) {
-        padding-left: 1em; }
-
   footer {
-    margin-top: 8em; } }
+    margin-top: 8em; }
+
+  /* About */
+  .supporting-page-content {
+    padding: 4em 0; }
+    .supporting-page-content .row {
+      width: 90%; }
+      .supporting-page-content .row .col {
+        width: 50%; }
+      .supporting-page-content .row .col:first-child {
+        padding-right: 1em; }
+      .supporting-page-content .row .col:nth-child(2) {
+        padding-left: 1em; } }
 @media only screen and (min-device-width: 695px) and (max-device-width: 819px) {
   /* ####    MEDIUM     #### */
   .icon-three {
@@ -589,15 +589,15 @@ video {
       text-align: center; }
 
   /* About */
-  .about-content {
+  .supporting-page-content {
     padding: 4em 0; }
-    .about-content .row {
+    .supporting-page-content .row {
       width: 90%; }
-      .about-content .row .col {
+      .supporting-page-content .row .col {
         width: 50%; }
-      .about-content .row .col:first-child {
+      .supporting-page-content .row .col:first-child {
         padding-right: 1em; }
-      .about-content .row .col:nth-child(2) {
+      .supporting-page-content .row .col:nth-child(2) {
         padding-left: 1em; }
 
   footer {
@@ -645,7 +645,25 @@ video {
     padding-left: 1em; }
 
   footer {
-    margin-top: 8em; } }
+    margin-top: 8em; }
+
+  	/* ##########
+  
+  	Services
+  
+  	############*/
+  .supporting-page__content .services-page .services-page__service {
+    /* col */
+    width: 100%;
+    padding: 4em 0; }
+    .supporting-page__content .services-page .services-page__service .services-page__service--text {
+      display: inline-block;
+      float: left;
+      width: 60%; }
+    .supporting-page__content .services-page .services-page__service .services-page__service--img {
+      display: inline-block;
+      float: left;
+      width: 40%; } }
 @media only screen and (min-device-width: 1070px) {
   .container {
     max-width: 1237px;

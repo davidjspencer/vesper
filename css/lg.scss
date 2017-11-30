@@ -63,4 +63,31 @@
 	footer {
 		margin-top: 8em;
 	}
+
+	/* ##########
+
+	Services
+
+	############*/
+	.supporting-page__content {
+		.services-page {
+
+			.services-page__service { /* col */
+				width: 100%;
+				padding: 4em 0;
+
+				.services-page__service--text {
+					display: inline-block;
+					float: left;
+					width: 60%;
+				}
+				.services-page__service--img {
+					display: inline-block;
+					float: left;
+					width: 40%;
+				}
+			}
+		}
+	}
+
 }
