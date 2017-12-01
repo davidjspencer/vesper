@@ -100,7 +100,7 @@ p,
 .services {
   overflow: auto;
   position: relative;
-  background: white; }
+  background: rgba(255, 255, 255, 0.95); }
   .services h1,
   .services p {
     color: #2E2E27; }
