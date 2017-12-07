@@ -428,6 +428,18 @@ video {
 
 		}
 	}
+
+	.services-page {
+		.services-page__service {
+			.services-page__service--text {
+
+			}
+
+			.services-page__service--img {
+				text-align: center;
+			}
+		}
+	}
 }
 @import 'menu';
 @import 'sm';

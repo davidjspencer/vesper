@@ -318,6 +318,8 @@ video {
       display: inline-block;
       width: 50%;
       float: left; }
+  .supporting-page__content .services-page .services-page__service .services-page__service--img {
+    text-align: center; }
 
 /* Icon 3 */
 .icon-three {
