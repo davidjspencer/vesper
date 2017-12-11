@@ -17,7 +17,16 @@ $gradient: linear-gradient(to right, $aqua, $purple);
 * {
 	box-sizing: border-box;
 }
-
+.undercon {
+	z-index: 1000;
+	color: $aqua;
+	font-size: 2em;
+	font-weight: bolder;
+	text-align: center;
+	position: fixed;
+	left: 50%;
+	transform: translateX(-50%);
+}
 body,
 html {
 	font-size: 16px;
@@ -217,11 +226,9 @@ p,
 	      img {
 
 	        display: block;
-	        width: 60%;
-	        margin-left: auto;
-	        margin-right: auto;
+	        width: 100%;
+	        margin: auto;
 	        height: auto;
-	        padding: 2em;
 	        filter: grayscale(100%);
 
 	        &:hover {
