@@ -172,7 +172,7 @@ p,
 
 .parallax {
     /* The image used */
-    background-image: url('../img/beach2.jpg');
+    /*background-image: url('../img/beach2.jpg');*/
 		/*background-image: url('../img/Vesper_HealthCare_Marketing_White_RGB.svg');*/
 
     /* Full height */
@@ -311,7 +311,7 @@ footer {
 }
 
 /* Turn off parallax scrolling for tablets and phones. Increase/decrease the pixels if needed */
-@media only screen and (max-device-width: 1024px) {
+/*@media only screen and (max-device-width: 1024px) {
 
 	p {
 		font-weight: 400;
@@ -321,7 +321,7 @@ footer {
   	background-image: url('../img/Vesper_HealthCare_Marketing_Black_Outline_MOBILE.svg');
   }
 
-}
+}*/
 
 video {
 	position: fixed;
