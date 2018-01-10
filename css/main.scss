@@ -246,6 +246,7 @@ footer {
 	height: 100%;
 	min-height: 400px;
 	color: $lightgrey;
+	margin-top: 8em;
 	padding: 8em 0;
 	text-align: center;
 	a {
@@ -362,7 +363,7 @@ video {
 		height: 100%;
 		width: 100%;
 		top: 0;
-		background: transparent;
+		background: $white;
 		align-items: center;
 	  justify-content: center;
 
