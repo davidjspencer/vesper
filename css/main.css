@@ -155,6 +155,7 @@ p,
   background-size: cover; }
 
 .clients {
+  margin-top: 8em;
   padding: 4em;
   text-align: center;
   background: #d3d3d3; }
