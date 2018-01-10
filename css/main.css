@@ -318,7 +318,7 @@ video {
     left: 0;
     z-index: -2;
     background: #2E2E27;
-    opacity: .9; }
+    opacity: .95; }
   .supporting-page__content h2,
   .supporting-page__content h3,
   .supporting-page__content p,
@@ -674,9 +674,6 @@ video {
   .row .col:nth-child(2) {
     padding-left: 1em; }
 
-  footer {
-    margin-top: 8em; }
-
   	/* ##########
   
   	Services
@@ -685,7 +682,7 @@ video {
   .supporting-page__content .services-page .services-page__service {
     /* col */
     width: 100%;
-    padding: 4em 0; }
+    padding: 6em 0; }
     .supporting-page__content .services-page .services-page__service .services-page__service--text {
       display: inline-block;
       float: left;
