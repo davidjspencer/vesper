@@ -138,7 +138,10 @@
 <script>
   window.addEventListener("load", function(event) {
 		var x = document.getElementById("privacy");
-		if (document.cookie != 'privacy=closed') {
+
+		if (document.cookie.includes('privacy=closed')) {
+			console.log('includes the string');
+		} else {
 			x.style.display = "block";
 		}
     console.log("All resources finished loading!");
