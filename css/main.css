@@ -334,6 +334,9 @@ video {
   .supporting-page__content .services-page .services-page__service .services-page__service--img {
     text-align: center; }
 
+#privacy {
+  display: none; }
+
 /* Icon 3 */
 .icon-three {
   position: fixed;
@@ -382,7 +385,7 @@ video {
 
 .icon-three.active-three .hamburger-three {
   background: transparent;
-  box-shadow: 0 0.125em 0.3125em transparent; }
+  box-shadow: 0 0.125em 0.3125em rgba(0, 0, 0, 0); }
 
 .icon-three.active-three .hamburger-three:before {
   top: 0;
