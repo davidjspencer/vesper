@@ -6,7 +6,7 @@ function closePrivacy() {
   var expires = "expires="+ d.toUTCString();
 
   x.style.display = "none";
-  document.cookie = "privacy=closed;" + expires + ";path=/";
+  document.cookie = "Vesper_privacy=closed;" + expires + ";path=/";
 
   console.log('Button clicked');
 }
